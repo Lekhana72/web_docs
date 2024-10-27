@@ -1,0 +1,79 @@
+*{
+    margin : 0px;
+    text-decoration: none;
+}
+
+.shop{
+    border:  4px solid black;
+    border-bottom: none;
+    width : 700px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.shop h2{
+    text-align: center;
+    background-color: rgb(219, 216, 213);
+    padding: 10px;
+    margin-top: 0px;
+    
+}
+.shop p{
+    margin:10px;
+    margin-left: 0px;
+}   
+.shop button{
+    background-color: black;
+    color: aliceblue;
+    justify-content: end;
+    width :100%;
+    font-size: 20px;
+    padding : 20px;
+
+}
+
+.shop button:hover{
+    background-color: white;
+    color:black;
+
+}
+
+.sale{
+    background-color: red;
+    color: aliceblue;
+    text-transform: uppercase;
+    padding: 7px 15px;
+    display: inline-block;
+    position:absolute;
+    top:-20px;
+    left:-30px;
+}
+
+.more{
+    margin-bottom: 20px;
+}
+
+.list{
+    list-style: square;
+    margin:10px;
+}
+
+.divi {
+    display:flex;
+    
+}
+.divi p{
+    width :20px;
+    height:20px;
+}
+
+.redi{
+    background-color: red;    
+}
+
+.greeni{
+    background-color: green;
+}
+.bluei{
+    background-color: blue;
+}
